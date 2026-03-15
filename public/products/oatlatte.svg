@@ -1,0 +1,22 @@
+<svg width="640" height="640" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="120" y1="60" x2="520" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8D5C4" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#E8D5C4" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="210" y1="120" x2="430" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="640" height="640" rx="64" fill="#0A0A0A"/>
+  <rect x="56" y="56" width="528" height="528" rx="56" fill="url(#g)" stroke="#E8D5C4" stroke-opacity="0.18"/>
+  <path d="M276 132H364V180C364 194.359 352.359 206 338 206H302C287.641 206 276 194.359 276 180V132Z" fill="#101010" stroke="#E8D5C4" stroke-opacity="0.22"/>
+  <path d="M248 206H392L372 540C370.926 558.325 355.703 572.5 337.33 572.5H302.67C284.297 572.5 269.074 558.325 268 540L248 206Z" fill="url(#glass)" stroke="#FFFFFF" stroke-opacity="0.14"/>
+  <path d="M262 332H378L368 526C367.238 540.046 355.628 551 341.561 551H298.439C284.372 551 272.762 540.046 272 526L262 332Z" fill="#C8B09A" fill-opacity="0.95"/>
+  <rect x="255" y="258" width="130" height="28" rx="14" fill="#E8D5C4" fill-opacity="0.18"/>
+  <circle cx="236" cy="292" r="6" fill="#E8D5C4" fill-opacity="0.18"/>
+  <circle cx="420" cy="304" r="5" fill="#E8D5C4" fill-opacity="0.14"/>
+  <circle cx="212" cy="386" r="4" fill="#E8D5C4" fill-opacity="0.14"/>
+  <circle cx="438" cy="410" r="6" fill="#E8D5C4" fill-opacity="0.16"/>
+</svg>
