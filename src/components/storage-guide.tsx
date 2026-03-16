@@ -11,7 +11,7 @@ const items = [
   },
   {
     title: "Shake before drink",
-    desc: "Kocok perlahan untuk menyatuin body dan aroma.",
+    desc: "Kocok perlahan untuk nyatuin coffee dan aroma.",
     Icon: Shuffle
   },
   {

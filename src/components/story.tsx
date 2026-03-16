@@ -3,11 +3,16 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-export function Story() {
+export function Story({ imageFirstOnMobile = false }: { imageFirstOnMobile?: boolean }) {
   return (
     <section id="story" className="mx-auto mt-20 max-w-6xl px-4 sm:px-6">
       <div className="grid items-center gap-8 lg:grid-cols-2">
-        <div className="rounded-3xl border border-white/10 bg-white/5 p-7 sm:p-10">
+        <div
+          className={[
+            "rounded-3xl border border-white/10 bg-white/5 p-7 sm:p-10",
+            imageFirstOnMobile ? "order-2 lg:order-1" : ""
+          ].join(" ")}
+        >
           <div className="text-xs font-semibold tracking-wide text-latte/80">
             ABOUT KOHIHOP
           </div>
@@ -54,20 +59,25 @@ export function Story() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-80px" }}
           transition={{ duration: 0.5 }}
-          className="relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-8 sm:p-10"
+          className={[
+            "relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-8 sm:p-10",
+            imageFirstOnMobile ? "order-1 lg:order-2" : ""
+          ].join(" ")}
         >
           <div className="pointer-events-none absolute inset-0">
             <div className="absolute -left-12 -top-12 h-48 w-48 rounded-full bg-latte/10 blur-3xl" />
             <div className="absolute -bottom-16 -right-16 h-56 w-56 rounded-full bg-white/5 blur-3xl" />
           </div>
-          <div className="relative mx-auto aspect-square w-full max-w-[440px]">
-            <Image
-              src="/products/coldbrew.svg"
-              alt="Premium bottled cold brew"
-              fill
-              sizes="(max-width: 1024px) 90vw, 440px"
-              className="object-contain"
-            />
+          <div className="relative mx-auto w-full max-w-[360px] overflow-hidden rounded-3xl bg-black/20 sm:max-w-[420px] lg:max-w-[440px]">
+            <div className="relative w-full aspect-[224/300]">
+              <Image
+                src="/realpic/product.png"
+                alt="KOHIHOP bottled coffee product"
+                fill
+                sizes="(max-width: 1024px) 90vw, 440px"
+                className="object-contain"
+              />
+            </div>
           </div>
           <div className="relative mt-6 text-center text-sm text-white/70">
             &ldquo;Buka botol, satu teguk, mood langsung hop.&rdquo;

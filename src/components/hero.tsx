@@ -24,11 +24,11 @@ export function Hero() {
           <div className="relative left-1/2 right-1/2 -mx-[50vw] w-screen overflow-hidden border-y border-white/10 bg-white/5">
             <div className="relative h-[320px] w-full sm:h-[420px] lg:h-[520px]">
               <Image
-                src="/bottle.png"
+                src="/realpic/homepage.png"
                 alt=""
                 fill
                 sizes="100vw"
-                className="object-cover"
+                className="object-cover object-center"
                 priority
               />
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/10 via-black/25 to-ink" />
