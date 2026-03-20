@@ -2,7 +2,7 @@ import type { Product } from "@/content/products";
 import { formatIdr } from "@/lib/money";
 
 export function getWhatsAppNumber() {
-  return process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "6280000000000";
+  return process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "6281907074334";
 }
 
 export function buildCheckoutMessage(args: {
