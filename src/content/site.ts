@@ -6,6 +6,7 @@ export const SITE = {
       "Kopi dingin botolan ready-to-drink. Smooth, clean, dan siap jadi stok kulkas."
   },
   whatsapp: {
+    number: "6281907014334",
     defaultMessage: "Halo KOHIHOP, saya mau tanya menu bottled coffee dan harga."
   },
   socials: {
@@ -13,4 +14,3 @@ export const SITE = {
     tiktok: "https://tiktok.com/@kohihop"
   }
 } as const;
-

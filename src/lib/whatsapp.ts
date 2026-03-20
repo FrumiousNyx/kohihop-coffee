@@ -1,8 +1,9 @@
 import type { Product } from "@/content/products";
+import { SITE } from "@/content/site";
 import { formatIdr } from "@/lib/money";
 
 export function getWhatsAppNumber() {
-  return process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "6281907074334";
+  return process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? SITE.whatsapp.number;
 }
 
 export function buildCheckoutMessage(args: {
@@ -28,4 +29,3 @@ export function buildWhatsAppUrl(args: {
   const text = encodeURIComponent(args.message);
   return `https://wa.me/${clean}?text=${text}`;
 }
-
