@@ -17,7 +17,7 @@ type CartAction =
   | { type: "SET_QTY"; productId: string; qty: number }
   | { type: "CLEAR" };
 
-const CART_STORAGE_KEY = "kohihop-cart-v1";
+const CART_STORAGE_KEY = "kohihop-cart-v2";
 
 function clampQty(qty: number) {
   if (!Number.isFinite(qty)) return 0;

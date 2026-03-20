@@ -48,7 +48,7 @@ export function ProductCard({ product }: { product: Product }) {
               alt={`${product.name} ${sizeLabel(product.sizeMl)}`}
               fill
               sizes="(max-width: 640px) 96px, 120px"
-              className="object-cover p-2"
+              className="object-cover object-center"
             />
           </div>
           <div className="flex flex-col justify-between">

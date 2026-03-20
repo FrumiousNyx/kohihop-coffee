@@ -102,7 +102,7 @@ export function CartDrawer() {
                               alt={product.name}
                               fill
                               sizes="56px"
-                              className="object-contain p-2"
+                              className="object-cover object-center"
                             />
                           </div>
                           <div className="min-w-0 flex-1">
