@@ -4,7 +4,7 @@ import * as React from "react";
 import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 import { Minus, Plus, Trash2, X } from "lucide-react";
-import { products, sizeLabel } from "@/data/products";
+import { products, sizeLabel } from "@/content/products";
 import { useCart } from "@/cart/cart-context";
 import { buildLineItems, calcTotalIdr, countItems } from "@/cart/cart-selectors";
 import { formatIdr } from "@/lib/money";

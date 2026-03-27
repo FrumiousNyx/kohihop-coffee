@@ -1,4 +1,4 @@
-import type { Product } from "@/data/products";
+import type { Product } from "@/content/products";
 
 export function countItems(items: Record<string, number>) {
   return Object.values(items).reduce((sum, q) => sum + q, 0);
