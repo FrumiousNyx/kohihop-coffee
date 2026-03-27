@@ -3,8 +3,6 @@
 const nextConfig = {
   // Performance optimizations
   experimental: {
-    optimizeCss: true,
-    optimizePackageImports: true,
     scrollRestoration: true,
     largePageDataBytes: 128 * 1000, // 128KB
   },
@@ -53,15 +51,6 @@ const nextConfig = {
       ]
     }
   ],
-  
-  // PWA configuration
-  pwa: {
-    dest: 'public',
-    disable: process.env.NODE_ENV === 'development',
-    register: true,
-    skipWaiting: true,
-    runtime: 'edge'
-  },
   
   // Enable source maps in production for debugging
   productionBrowserSourceMaps: false,
