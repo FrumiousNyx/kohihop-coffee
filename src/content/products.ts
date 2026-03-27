@@ -1,7 +1,7 @@
 export type Product = {
   id: string;
   name: string;
-  sizeMl: 250 | 500 | 1000;
+  sizeMl: 200 | 1000;
   priceIdr: number;
   taste: string;
   notes: string[];
@@ -10,20 +10,11 @@ export type Product = {
 
 export const products: Product[] = [
   {
-    id: "almond-kohi-250",
+    id: "almond-kohi-200",
     name: "Almond Kohi",
-    sizeMl: 250,
+    sizeMl: 200,
     priceIdr: 15000,
-    taste: "Nutty, creamy, smooth finish",
-    notes: ["Almond", "Milky", "Smooth"],
-    imageSrc: "/menu/almond-kohi.png"
-  },
-  {
-    id: "almond-kohi-500",
-    name: "Almond Kohi",
-    sizeMl: 500,
-    priceIdr: 30000,
-    taste: "Nutty, creamy, smooth finish",
+    taste: "Nutty, Chocolaty, Smoky",
     notes: ["Almond", "Milky", "Smooth"],
     imageSrc: "/menu/almond-kohi.png"
   },
@@ -31,53 +22,35 @@ export const products: Product[] = [
     id: "almond-kohi-1000",
     name: "Almond Kohi",
     sizeMl: 1000,
-    priceIdr: 45000,
-    taste: "Nutty, creamy, smooth finish",
+    priceIdr: 70000,
+    taste: "Nutty, Chocolaty, Smoky",
     notes: ["Almond", "Milky", "Smooth"],
     imageSrc: "/menu/almond-kohi.png"
   },
   {
-    id: "milk-kohi-250",
-    name: "Milk Kohi",
-    sizeMl: 250,
+    id: "milk-kohi-200",
+    name: "Kohi Milk",
+    sizeMl: 200,
     priceIdr: 15000,
-    taste: "Milky, balanced coffee, creamy",
-    notes: ["Milky", "Balanced", "Creamy"],
-    imageSrc: "/menu/milk-kohi.png"
-  },
-  {
-    id: "milk-kohi-500",
-    name: "Milk Kohi",
-    sizeMl: 500,
-    priceIdr: 30000,
-    taste: "Milky, balanced coffee, creamy",
+    taste: "Creamy, Sweet, Bold",
     notes: ["Milky", "Balanced", "Creamy"],
     imageSrc: "/menu/milk-kohi.png"
   },
   {
     id: "milk-kohi-1000",
-    name: "Milk Kohi",
+    name: "Kohi Milk",
     sizeMl: 1000,
-    priceIdr: 45000,
-    taste: "Milky, balanced coffee, creamy",
+    priceIdr: 70000,
+    taste: "Creamy, Sweet, Bold",
     notes: ["Milky", "Balanced", "Creamy"],
     imageSrc: "/menu/milk-kohi.png"
   },
   {
-    id: "butterscotch-kohi-250",
+    id: "butterscotch-kohi-200",
     name: "Butterscotch Kohi",
-    sizeMl: 250,
+    sizeMl: 200,
     priceIdr: 15000,
-    taste: "Buttery sweetness, coffee-forward",
-    notes: ["Butterscotch", "Sweet", "Rich"],
-    imageSrc: "/menu/butterscotch-kohi.png"
-  },
-  {
-    id: "butterscotch-kohi-500",
-    name: "Butterscotch Kohi",
-    sizeMl: 500,
-    priceIdr: 30000,
-    taste: "Buttery sweetness, coffee-forward",
+    taste: "Buttery, Sweet Caramel, Smooth",
     notes: ["Butterscotch", "Sweet", "Rich"],
     imageSrc: "/menu/butterscotch-kohi.png"
   },
@@ -85,10 +58,64 @@ export const products: Product[] = [
     id: "butterscotch-kohi-1000",
     name: "Butterscotch Kohi",
     sizeMl: 1000,
-    priceIdr: 45000,
-    taste: "Buttery sweetness, coffee-forward",
+    priceIdr: 70000,
+    taste: "Buttery, Sweet Caramel, Smooth",
     notes: ["Butterscotch", "Sweet", "Rich"],
     imageSrc: "/menu/butterscotch-kohi.png"
+  },
+  {
+    id: "original-kohi-200",
+    name: "Original Kohi",
+    sizeMl: 200,
+    priceIdr: 13000,
+    taste: "Clean, Bold, Smooth",
+    notes: ["Original", "Bold", "Smooth"],
+    imageSrc: "/menu/original-kohi.png"
+  },
+  {
+    id: "original-kohi-1000",
+    name: "Original Kohi",
+    sizeMl: 1000,
+    priceIdr: 60000,
+    taste: "Clean, Bold, Smooth",
+    notes: ["Original", "Bold", "Smooth"],
+    imageSrc: "/menu/original-kohi.png"
+  },
+  {
+    id: "palm-sugar-kohi-200",
+    name: "Palm Sugar",
+    sizeMl: 200,
+    priceIdr: 13000,
+    taste: "Touch of Caramel, Smoky, Bold",
+    notes: ["Palm Sugar", "Caramel", "Bold"],
+    imageSrc: "/menu/palm-sugar.png"
+  },
+  {
+    id: "palm-sugar-kohi-1000",
+    name: "Palm Sugar",
+    sizeMl: 1000,
+    priceIdr: 60000,
+    taste: "Touch of Caramel, Smoky, Bold",
+    notes: ["Palm Sugar", "Caramel", "Bold"],
+    imageSrc: "/menu/palm-sugar.png"
+  },
+  {
+    id: "berrycano-kohi-200",
+    name: "Berrycano",
+    sizeMl: 200,
+    priceIdr: 13000,
+    taste: "Fruity, Refreshing, Bold",
+    notes: ["Berry", "Fruity", "Bold"],
+    imageSrc: "/menu/berrycano.png"
+  },
+  {
+    id: "berrycano-kohi-1000",
+    name: "Berrycano",
+    sizeMl: 1000,
+    priceIdr: 60000,
+    taste: "Fruity, Refreshing, Bold",
+    notes: ["Berry", "Fruity", "Bold"],
+    imageSrc: "/menu/berrycano.png"
   }
 ];
 

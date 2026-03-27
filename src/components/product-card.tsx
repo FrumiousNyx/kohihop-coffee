@@ -51,7 +51,7 @@ export function ProductCard({ product }: { product: Product }) {
               className="object-cover object-center"
             />
           </div>
-          <div className="flex flex-col justify-between">
+          <div className="flex flex-col">
             <div>
               <div className="text-xs font-semibold text-white/80">Notes</div>
               <div className="mt-2 flex flex-wrap gap-2">

@@ -5,18 +5,18 @@ import { motion } from "framer-motion";
 
 const items = [
   {
-    title: "Keep at 4°C",
-    desc: "Simpan di kulkas ±4°C agar rasa tetap clean.",
+    title: "Store in refrigerator",
+    desc: "Store in a refrigerator at 4°C to maintain freshness and quality.",
     Icon: ThermometerSnowflake
   },
   {
-    title: "Shake before drink",
-    desc: "Kocok perlahan untuk nyatuin coffee dan aroma.",
+    title: "Shake Before Drink",
+    desc: "Gently shake to blend all the flavors.",
     Icon: Shuffle
   },
   {
-    title: "Consume within 3 days",
-    desc: "Untuk kualitas terbaik, habiskan dalam 3 hari.",
+    title: "Expiry date",
+    desc: "Lasts 4–5 days in the refrigerator, 1 day at room temperature.",
     Icon: Clock3
   }
 ];

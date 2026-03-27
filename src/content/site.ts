@@ -3,10 +3,10 @@ export const SITE = {
   meta: {
     title: "KOHIHOP — Bottled Coffee",
     description:
-      "Kopi dingin botolan ready-to-drink. Smooth, clean, dan siap jadi stok kulkas."
+      "Your favorite portable kohi. Smooth, clean, dan siap jadi stok kulkas."
   },
   whatsapp: {
-    number: "6281907014334",
+    number: "6285111410014",
     defaultMessage: "Halo KOHIHOP, saya mau tanya menu bottled coffee dan harga."
   },
   socials: {

@@ -14,8 +14,7 @@ export function Footer() {
         <div className="flex flex-col gap-4 text-center sm:flex-row sm:items-center sm:justify-between sm:text-left">
           <div>
             <span className="font-semibold text-white/80">{SITE.brand}</span> —
-            kopi
-            dingin botolan, siap kapan aja.
+            Your Favorite Portable KOHI
           </div>
           <div className="flex flex-wrap justify-center gap-x-5 gap-y-2 text-xs text-white/60 sm:justify-end">
             <a

@@ -17,14 +17,10 @@ export function Story({ imageFirstOnMobile = false }: { imageFirstOnMobile?: boo
             ABOUT KOHIHOP
           </div>
           <h2 className="mt-2 text-2xl font-semibold text-white/90 sm:text-3xl">
-            Kopi yang bikin mood naik satu hop.
+            Your Favorite Portable Kohi.
           </h2>
           <p className="mt-4 text-sm leading-relaxed text-white/70 sm:text-base">
-            kohihop lahir dari kebiasaan yang sama: pengin kopi enak yang selalu
-            siap, tanpa alat, tanpa ribet. Kami seduh dingin untuk rasa yang
-            lebih clean dan low acidity, lalu botolkan biar bisa kamu bawa
-            kemana-mana. Rasanya bold tapi tetap smooth—pas buat nemenin kerja,
-            jalan, atau sekadar &ldquo;ngopi bentar&rdquo; yang jadi lama.
+            Kohihop was created to make enjoying high‑quality coffee effortless, no matter where you are. The name 'Kohi' comes from Japanese word for coffee, while 'Hop' reflects flexibility and portability of our product. We understand the struggle—craving caffeine but stuck in long lines, paying extra, and ending up with coffee that can't even keep up with your pace. That's why we designed a smarter way. With Kohihop, you get quality coffee that's fast, flexible, and made to move with you. Don't settle for hassle, make the switch today. Kohihop today. Kohihop All the time.
           </p>
           <div className="mt-6 grid gap-3 sm:grid-cols-2">
             {[
@@ -80,7 +76,7 @@ export function Story({ imageFirstOnMobile = false }: { imageFirstOnMobile?: boo
             </div>
           </div>
           <div className="relative mt-6 text-center text-sm text-white/70">
-            &ldquo;Buka botol, satu teguk, mood langsung hop.&rdquo;
+            Open. Sip. Mood up.
           </div>
         </motion.div>
       </div>

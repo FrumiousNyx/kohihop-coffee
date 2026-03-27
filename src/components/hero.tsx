@@ -58,12 +58,12 @@ export function Hero() {
 
           <div className="mt-9 grid grid-cols-3 gap-3 text-xs text-white/70 sm:max-w-md lg:max-w-5xl lg:gap-4 lg:text-sm">
             <div className="rounded-2xl border border-white/10 bg-white/5 p-4 lg:p-5">
-              <div className="text-white/90 lg:text-base">Cold only</div>
-              <div className="mt-1">Tanpa menu panas.</div>
+              <div className="text-white/90 lg:text-base">Your favorite</div>
+              <div className="mt-1">Portable kohi</div>
             </div>
             <div className="rounded-2xl border border-white/10 bg-white/5 p-4 lg:p-5">
-              <div className="text-white/90 lg:text-base">3 ukuran</div>
-              <div className="mt-1">250ml • 500ml • 1L</div>
+              <div className="text-white/90 lg:text-base">2 ukuran</div>
+              <div className="mt-1">200ml • 1L</div>
             </div>
             <div className="rounded-2xl border border-white/10 bg-white/5 p-4 lg:p-5">
               <div className="text-white/90 lg:text-base">Order cepat</div>
