@@ -6,6 +6,7 @@ import { ShoppingBag } from "lucide-react";
 import { useCart } from "@/cart/cart-context";
 import { countItems } from "@/cart/cart-selectors";
 import { MobileMenu } from "@/components/mobile-menu";
+import { ThemeToggle } from "@/components/ui/theme-toggle";
 
 export function Header() {
   const cart = useCart();
@@ -47,6 +48,7 @@ export function Header() {
 
           <div className="flex items-center gap-2">
             <MobileMenu />
+            <ThemeToggle />
             <button
               type="button"
               onClick={cart.open}

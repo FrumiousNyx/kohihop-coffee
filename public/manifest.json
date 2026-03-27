@@ -1,0 +1,24 @@
+{
+  "name": "Kohihop - Your Favorite Portable Kohi",
+  "short_name": "Kohihop",
+  "description": "Your favorite portable kohi. Smooth, clean, dan siap jadi stok kulkas.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a1a",
+  "theme_color": "#f59e0b",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

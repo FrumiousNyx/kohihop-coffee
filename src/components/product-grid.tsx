@@ -1,10 +1,24 @@
-import { products } from "@/content/products";
+import { Products, sizeLabel } from "@/content/products";
+import { formatIdr } from "@/lib/money";
+import { useOptimizedCart } from "@/hooks/use-optimized-cart";
+import { motion } from "framer-motion";
 import { ProductCard } from "@/components/product-card";
 
 export function ProductGrid() {
+  const cart = useOptimizedCart();
+
+  // Preload product images for better performance
+  React.useEffect(() => {
+    const imageSources = products.map(p => p.imageSrc);
+    preloadImages(imageSources);
+  }, []);
 
   return (
-    <section id="products" className="mx-auto mt-20 max-w-6xl px-4 sm:px-6">
+    <motion.section 
+      id="products" 
+      className="mx-auto mt-20 max-w-6xl px-4 sm:px-6"
+      {...optimizeAnimation()}
+    >
       <div className="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-end">
         <div>
           <div className="text-xs font-semibold tracking-wide text-latte/80">
@@ -61,6 +75,6 @@ export function ProductGrid() {
         ))}
       </div>
 
-    </section>
+    </motion.section>
   );
 }
