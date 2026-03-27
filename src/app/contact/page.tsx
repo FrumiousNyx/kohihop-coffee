@@ -31,7 +31,7 @@ export default function ContactPage() {
               Chat WhatsApp
             </a>
             <div className="rounded-2xl border border-white/10 bg-black/20 px-5 py-3 text-sm text-white/70">
-              No. WA: 0851-1141-0014
+              Whatsapp: 0851-1141-0014
             </div>
           </div>
 
