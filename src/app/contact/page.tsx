@@ -18,7 +18,7 @@ export default function ContactPage() {
             Reach out to us!
           </h1>
           <p className="mt-3 max-w-2xl text-sm leading-relaxed text-white/70 sm:text-base">
-            Fastest way via WhatsApp, send a message, select your menu, and we'll take care of the rest.
+            Fastest way via WhatsApp, send a message, select your menu, and we&apos;ll take care of the rest.
           </p>
 
           <div className="mt-6 flex flex-col gap-3 sm:flex-row">

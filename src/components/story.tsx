@@ -20,7 +20,7 @@ export function Story({ imageFirstOnMobile = false }: { imageFirstOnMobile?: boo
             Your Favorite Portable Kohi.
           </h2>
           <p className="mt-4 text-sm leading-relaxed text-white/70 sm:text-base">
-            Kohihop was created to make enjoying high‑quality coffee effortless, no matter where you are. The name 'Kohi' comes from Japanese word for coffee, while 'Hop' reflects flexibility and portability of our product. We understand the struggle—craving caffeine but stuck in long lines, paying extra, and ending up with coffee that can't even keep up with your pace. That's why we designed a smarter way. With Kohihop, you get quality coffee that's fast, flexible, and made to move with you. Don't settle for hassle, make the switch today. Kohihop today. Kohihop All the time.
+            Kohihop was created to make enjoying high‑quality coffee effortless, no matter where you are. The name &apos;Kohi&apos; comes from Japanese word for coffee, while &apos;Hop&apos; reflects flexibility and portability of our product. We understand the struggle—craving caffeine but stuck in long lines, paying extra, and ending up with coffee that can&apos;t even keep up with your pace. That&apos;s why we designed a smarter way. With Kohihop, you get quality coffee that&apos;s fast, flexible, and made to move with you. Don&apos;t settle for hassle, make the switch today. Kohihop today. Kohihop All the time.
           </p>
           <div className="mt-6 grid gap-3 sm:grid-cols-2">
             {[
