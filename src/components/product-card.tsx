@@ -65,17 +65,17 @@ export function ProductCard({ product }: { product: Product }) {
                 ))}
               </div>
             </div>
-
-            <button
-              type="button"
-              onClick={() => cart.add(product.id)}
-              className="mt-5 inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-latte px-4 py-3 text-sm font-semibold text-black transition hover:brightness-95"
-            >
-              <Plus className="h-4 w-4" />
-              Add to cart
-            </button>
           </div>
         </div>
+
+        <button
+          type="button"
+          onClick={() => cart.add(product.id)}
+          className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-latte px-4 py-3 text-sm font-semibold text-black transition hover:brightness-95"
+        >
+          <Plus className="h-4 w-4" />
+          Add to cart
+        </button>
       </div>
     </motion.div>
   );
