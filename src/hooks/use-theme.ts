@@ -46,10 +46,14 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     theme,
     setTheme: setThemeState,
     isDark,
-    toggleTheme,
+    toggleTheme
   }), [theme, isDark, toggleTheme]);
 
-  return <ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>;
+  return React.createElement(
+    ThemeContext.Provider,
+    { value },
+    children
+  );
 }
 
 export function useTheme() {
