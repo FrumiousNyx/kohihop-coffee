@@ -22,7 +22,7 @@ export function Hero() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="relative">
           <div className="relative left-1/2 right-1/2 -mx-[50vw] w-screen overflow-hidden border-y border-white/10 bg-white/5">
-            <div className="relative h-[320px] w-full sm:h-[420px] lg:h-[520px]">
+            <div className="relative h-[240px] w-full sm:h-[420px] lg:h-[520px]">
               <Image
                 src="/realpic/homepage.png"
                 alt=""
@@ -34,7 +34,7 @@ export function Hero() {
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/10 via-black/25 to-ink" />
             </div>
           </div>
-          <p className="mt-4 max-w-xl text-pretty text-base leading-relaxed text-white/70 sm:text-lg lg:max-w-4xl">
+          <p className="mt-3 max-w-xl text-pretty text-sm leading-relaxed text-white/70 sm:text-base lg:max-w-4xl">
             Cold-brewed untuk rasa yang clean dan smooth. Tinggal buka, shake,
             minum—langsung lanjut jalan.
           </p>

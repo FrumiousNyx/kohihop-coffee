@@ -3,6 +3,7 @@
 import * as React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X, ArrowUpRight } from "lucide-react";
 import { useCart } from "@/cart/cart-context";
 
@@ -61,11 +62,17 @@ export function MobileMenu() {
                 <Link
                   href="/"
                   onClick={() => setOpen(false)}
-                  className="inline-flex items-center gap-2 text-lg font-bold tracking-[0.14em] text-white/95"
+                  className="inline-flex items-center"
                 >
-                  <span className="leading-none">
-                    KOHI<span className="text-latte/90">HOP</span>
-                  </span>
+                  <div className="relative h-14 w-14 rounded-xl bg-white p-2">
+                    <Image
+                      src="/logo.png"
+                      alt="KOHIHOP"
+                      fill
+                      sizes="56px"
+                      className="object-contain"
+                    />
+                  </div>
                 </Link>
                 <button
                   type="button"

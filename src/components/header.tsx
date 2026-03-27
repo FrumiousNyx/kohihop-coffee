@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { ShoppingBag } from "lucide-react";
 import { useCart } from "@/cart/cart-context";
 import { countItems } from "@/cart/cart-selectors";
@@ -13,14 +14,20 @@ export function Header() {
   return (
     <header className="fixed inset-x-0 top-0 z-50">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <div className="mt-4 flex items-center justify-between rounded-2xl border border-white/10 bg-black/35 px-4 py-3 backdrop-blur-xl">
+        <div className="mt-4 flex items-center justify-between rounded-2xl border border-white/20 bg-white/10 px-4 py-3 backdrop-blur-xl">
           <Link
             href="/"
-            className="group inline-flex items-center gap-2 text-lg font-bold tracking-[0.14em] text-white/95 sm:text-sm"
+            className="group inline-flex items-center"
           >
-            <span className="leading-none">
-              KOHI<span className="text-latte/90">HOP</span>
-            </span>
+            <div className="relative h-16 w-16 sm:h-20 sm:w-20">
+              <Image
+                src="/logo.png"
+                alt="KOHIHOP"
+                fill
+                sizes="96px"
+                className="object-contain"
+              />
+            </div>
           </Link>
 
           <nav className="hidden items-center gap-6 text-sm text-white/70 sm:flex">

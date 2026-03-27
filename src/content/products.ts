@@ -13,7 +13,7 @@ export const products: Product[] = [
     id: "almond-kohi-250",
     name: "Almond Kohi",
     sizeMl: 250,
-    priceIdr: 28000,
+    priceIdr: 15000,
     taste: "Nutty, creamy, smooth finish",
     notes: ["Almond", "Milky", "Smooth"],
     imageSrc: "/menu/almond-kohi.png"
@@ -22,7 +22,7 @@ export const products: Product[] = [
     id: "almond-kohi-500",
     name: "Almond Kohi",
     sizeMl: 500,
-    priceIdr: 52000,
+    priceIdr: 30000,
     taste: "Nutty, creamy, smooth finish",
     notes: ["Almond", "Milky", "Smooth"],
     imageSrc: "/menu/almond-kohi.png"
@@ -31,7 +31,7 @@ export const products: Product[] = [
     id: "almond-kohi-1000",
     name: "Almond Kohi",
     sizeMl: 1000,
-    priceIdr: 94000,
+    priceIdr: 45000,
     taste: "Nutty, creamy, smooth finish",
     notes: ["Almond", "Milky", "Smooth"],
     imageSrc: "/menu/almond-kohi.png"
@@ -40,7 +40,7 @@ export const products: Product[] = [
     id: "milk-kohi-250",
     name: "Milk Kohi",
     sizeMl: 250,
-    priceIdr: 32000,
+    priceIdr: 15000,
     taste: "Milky, balanced coffee, creamy",
     notes: ["Milky", "Balanced", "Creamy"],
     imageSrc: "/menu/milk-kohi.png"
@@ -49,7 +49,7 @@ export const products: Product[] = [
     id: "milk-kohi-500",
     name: "Milk Kohi",
     sizeMl: 500,
-    priceIdr: 60000,
+    priceIdr: 30000,
     taste: "Milky, balanced coffee, creamy",
     notes: ["Milky", "Balanced", "Creamy"],
     imageSrc: "/menu/milk-kohi.png"
@@ -58,7 +58,7 @@ export const products: Product[] = [
     id: "milk-kohi-1000",
     name: "Milk Kohi",
     sizeMl: 1000,
-    priceIdr: 108000,
+    priceIdr: 45000,
     taste: "Milky, balanced coffee, creamy",
     notes: ["Milky", "Balanced", "Creamy"],
     imageSrc: "/menu/milk-kohi.png"
@@ -67,7 +67,7 @@ export const products: Product[] = [
     id: "butterscotch-kohi-250",
     name: "Butterscotch Kohi",
     sizeMl: 250,
-    priceIdr: 34000,
+    priceIdr: 15000,
     taste: "Buttery sweetness, coffee-forward",
     notes: ["Butterscotch", "Sweet", "Rich"],
     imageSrc: "/menu/butterscotch-kohi.png"
@@ -76,7 +76,7 @@ export const products: Product[] = [
     id: "butterscotch-kohi-500",
     name: "Butterscotch Kohi",
     sizeMl: 500,
-    priceIdr: 64000,
+    priceIdr: 30000,
     taste: "Buttery sweetness, coffee-forward",
     notes: ["Butterscotch", "Sweet", "Rich"],
     imageSrc: "/menu/butterscotch-kohi.png"
@@ -85,7 +85,7 @@ export const products: Product[] = [
     id: "butterscotch-kohi-1000",
     name: "Butterscotch Kohi",
     sizeMl: 1000,
-    priceIdr: 116000,
+    priceIdr: 45000,
     taste: "Buttery sweetness, coffee-forward",
     notes: ["Butterscotch", "Sweet", "Rich"],
     imageSrc: "/menu/butterscotch-kohi.png"
