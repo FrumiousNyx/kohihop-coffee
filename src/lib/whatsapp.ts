@@ -10,14 +10,16 @@ export function buildCheckoutMessage(args: {
   items: Array<{ product: Product; qty: number }>;
   totalIdr: number;
   address: string;
+  name: string;
 }) {
   const lines: string[] = [];
   lines.push("Halo saya mau pesan:");
+  lines.push(`Nama: ${args.name || "-"}`);
   for (const { product, qty } of args.items) {
     lines.push(`- ${qty}x ${product.name} (${product.sizeMl === 1000 ? "1L" : `${product.sizeMl}ml`})`);
   }
   lines.push(`Total: ${formatIdr(args.totalIdr)}`);
-  lines.push(`alamat: ${args.address || "-"}`);
+  lines.push(`Alamat: ${args.address || "-"}`);
   return lines.join("\n");
 }
 

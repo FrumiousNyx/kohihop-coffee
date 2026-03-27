@@ -17,6 +17,7 @@ import {
 export function CartDrawer() {
   const cart = useCart();
   const [address, setAddress] = React.useState("");
+  const [name, setName] = React.useState("");
 
   const lineItems = React.useMemo(
     () => buildLineItems({ items: cart.items, products }),
@@ -37,10 +38,10 @@ export function CartDrawer() {
 
   const checkout = React.useCallback(() => {
     if (lineItems.length === 0) return;
-    const message = buildCheckoutMessage({ items: lineItems, totalIdr, address });
+    const message = buildCheckoutMessage({ items: lineItems, totalIdr, address, name });
     const url = buildWhatsAppUrl({ number: getWhatsAppNumber(), message });
     window.location.href = url;
-  }, [address, lineItems, totalIdr]);
+  }, [address, name, lineItems, totalIdr]);
 
   return (
     <AnimatePresence>
@@ -173,6 +174,17 @@ export function CartDrawer() {
                       {formatIdr(totalIdr)}
                     </span>
                   </div>
+
+                  <label className="mt-4 block text-xs font-semibold text-white/80">
+                    Nama
+                    <input
+                      type="text"
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
+                      placeholder="Tulis nama anda..."
+                      className="mt-2 w-full rounded-2xl border border-white/10 bg-black/30 px-4 py-3 text-sm text-white/90 placeholder:text-white/35 outline-none focus:border-latte/40"
+                    />
+                  </label>
 
                   <label className="mt-4 block text-xs font-semibold text-white/80">
                     Alamat pengantaran
