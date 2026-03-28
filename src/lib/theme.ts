@@ -12,8 +12,9 @@ export interface ThemeConfig {
       primary: string;
       secondary: string;
       muted: string;
-    inverse: string;
+      inverse: string;
     };
+  };
   shadows: {
     sm: string;
     md: string;
@@ -62,6 +63,7 @@ export const darkTheme: ThemeConfig = {
 export const themes = {
   light: lightTheme,
   dark: darkTheme,
+  system: lightTheme, // Default to light for system
 };
 
 export function getTheme(theme: Theme): ThemeConfig {
