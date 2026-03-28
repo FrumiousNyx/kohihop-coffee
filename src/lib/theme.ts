@@ -34,6 +34,7 @@ export const lightTheme: ThemeConfig = {
       muted: '#9ca3af',
       inverse: '#f9fafb',
     },
+  },
   shadows: {
     sm: '0 1px 3px 0 rgba(0, 0, 0, 0.1)',
     md: '0 4px 6px 0 rgba(0, 0, 0, 0.1)',
@@ -53,6 +54,7 @@ export const darkTheme: ThemeConfig = {
       muted: '#94a3b8',
       inverse: '#111827',
     },
+  },
   shadows: {
     sm: '0 1px 3px 0 rgba(0, 0, 0, 0.3)',
     md: '0 4px 6px 0 rgba(0, 0, 0, 0.3)',
