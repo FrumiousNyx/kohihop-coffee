@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Theme, getTheme, themes } from '@/lib/theme';
 
 type ThemeContextValue = {
@@ -29,7 +29,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     
     // Apply CSS variables
     Object.entries(themeConfig.colors).forEach(([key, value]) => {
-      root.style.setProperty(`--color-${key}`, value);
+      root.style.setProperty(`--color-${key}`, value as string);
     });
     
     // Apply theme class
