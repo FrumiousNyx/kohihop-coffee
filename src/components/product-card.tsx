@@ -2,12 +2,11 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { Plus, Share2 } from "lucide-react";
+import { Plus } from "lucide-react";
 import type { Product } from "@/content/products";
 import { sizeLabel } from "@/content/products";
 import { formatIdr } from "@/lib/money";
 import { useCart } from "@/cart/cart-context";
-import { SocialShare } from "@/components/social-share";
 
 export function ProductCard({ product }: { product: Product }) {
   const cart = useCart();
@@ -68,8 +67,6 @@ export function ProductCard({ product }: { product: Product }) {
             </div>
           </div>
         </div>
-
-        <SocialShare product={product} />
 
         <button
           type="button"

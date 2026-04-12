@@ -34,11 +34,6 @@ export function Hero() {
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/10 via-black/25 to-ink" />
             </div>
           </div>
-          <p className="mt-3 max-w-xl text-pretty text-sm leading-relaxed text-white/70 sm:text-base lg:max-w-4xl">
-            Cold-brewed untuk rasa yang clean dan smooth. Tinggal buka, shake,
-            minum—langsung lanjut jalan.
-          </p>
-
           <div className="mt-7 flex flex-col gap-3 sm:flex-row">
             <Link
               href="/menu"

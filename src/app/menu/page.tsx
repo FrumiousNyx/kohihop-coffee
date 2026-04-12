@@ -1,7 +1,4 @@
 import { ProductGrid } from "@/components/product-grid";
-import { metadata } from "./metadata";
-
-export { metadata };
 
 export default function MenuPage() {
   return (
