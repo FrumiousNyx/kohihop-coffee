@@ -3,12 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "NODE_OPTIONS='--max-old-space-size=4096' node -r ./scripts/fs-readlink-fix.cjs ./node_modules/next/dist/bin/next dev",
+    "dev": "node -r ./scripts/fs-readlink-fix.cjs ./node_modules/next/dist/bin/next dev",
     "build": "node -r ./scripts/fs-readlink-fix.cjs ./node_modules/next/dist/bin/next build",
     "start": "node -r ./scripts/fs-readlink-fix.cjs ./node_modules/next/dist/bin/next start",
-    "lint": "node -r ./scripts/fs-readlink-fix.cjs ./node_modules/next/dist/bin/next lint",
-    "analyze": "ANALYZE=true npm run build",
-    "build:production": "NODE_OPTIONS='--max-old-space-size=4096' NODE_ENV=production npm run build"
+    "lint": "node -r ./scripts/fs-readlink-fix.cjs ./node_modules/next/dist/bin/next lint"
   },
   "dependencies": {
     "framer-motion": "^11.18.2",

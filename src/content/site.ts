@@ -1,5 +1,6 @@
 export const SITE = {
   brand: "KOHIHOP",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000",
   meta: {
     title: "KOHIHOP — Bottled Coffee",
     description:
@@ -11,6 +12,6 @@ export const SITE = {
   },
   socials: {
     instagram: "https://instagram.com/kohihop",
-    tiktok: "https://tiktok.com/@kohihop"
+    tiktok: "https://tiktok.com/@kohihop6"
   }
 } as const;

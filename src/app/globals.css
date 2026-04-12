@@ -2,79 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Custom CSS Variables for Theme */
 :root {
-  --color-primary: #f59e0b;
-  --color-secondary: #d97706;
-  --color-background: #ffffff;
-  --color-surface: #f8fafc;
-  --color-text-primary: #111827;
-  --color-text-secondary: #374151;
-  --color-text-muted: #9ca3af;
-  --color-text-inverse: #f9fafb;
+  color-scheme: dark;
 }
 
-/* Dark Theme Variables */
-[data-theme="dark"] {
-  --color-primary: #f59e0b;
-  --color-secondary: #d97706;
-  --color-background: #0f172a;
-  --color-surface: #1e293b;
-  --color-text-primary: #f9fafb;
-  --color-text-secondary: #e2e8f0;
-  --color-text-muted: #94a3b8;
-  --color-text-inverse: #111827;
-}
-
-/* Light Theme Variables */
-[data-theme="light"] {
-  --color-primary: #f59e0b;
-  --color-secondary: #d97706;
-  --color-background: #ffffff;
-  --color-surface: #f8fafc;
-  --color-text-primary: #111827;
-  --color-text-secondary: #374151;
-  --color-text-muted: #9ca3af;
-  --color-text-inverse: #f9fafb;
-}
-
-/* Theme Transitions */
-* {
-  transition: 
-    color-primary 0.3s ease,
-    color-secondary 0.3s ease,
-    color-background 0.3s ease,
-    color-surface 0.3s ease,
-    color-text-primary 0.3s ease,
-    color-text-secondary 0.3s ease,
-    color-text-muted 0.3s ease,
-    color-text-inverse 0.3s ease;
-}
-
-/* Performance Optimizations */
-.lazy-load {
-  opacity: 0;
-  transition: opacity 0.5s ease;
-}
-
-.lazy-load.loaded {
-  opacity: 1;
-}
-
-/* Smooth Scrolling */
-html {
-  scroll-behavior: smooth;
-}
-
-/* Reduced Motion */
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-  }
+html,
+body {
+  height: 100%;
 }
 
 body {

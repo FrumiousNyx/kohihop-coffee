@@ -1,6 +1,6 @@
 "use client";
 
-import { LazyImage } from "@/components/ui/lazy-image";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { Plus } from "lucide-react";
 import type { Product } from "@/content/products";
@@ -43,10 +43,12 @@ export function ProductCard({ product }: { product: Product }) {
 
         <div className="mt-5 grid grid-cols-[92px_1fr] gap-4">
           <div className="relative aspect-square overflow-hidden rounded-2xl border border-white/10 bg-black/30">
-            <LazyImage
+            <Image
               src={product.imageSrc}
               alt={`${product.name} ${sizeLabel(product.sizeMl)}`}
-              priority={false}
+              fill
+              sizes="(max-width: 640px) 96px, 120px"
+              className="object-cover object-center"
             />
           </div>
           <div className="flex flex-col">

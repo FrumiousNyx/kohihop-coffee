@@ -1,6 +1,7 @@
 const nextConfig = {
   images: {
-    formats: ["image/avif", "image/webp"]
+    formats: ["image/avif", "image/webp"],
+    remotePatterns: [],
   },
   webpack: (config) => {
     config.cache = false;
