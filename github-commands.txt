@@ -1,0 +1,4 @@
+# Ganti USERNAME_GITHUB dengan username GitHub kamu
+git remote add origin https://github.com/USERNAME_GITHUB/kohihop-coffee.git
+git branch -M main
+git push -u origin main
